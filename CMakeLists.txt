@@ -9,7 +9,7 @@ add_executable(AutomapRev
     src/main.cpp
 )
 
-target_include_directories(AutomapRev PRIVATE 
+target_include_directories(AutomapRev PUBLIC 
     include
 )
 
